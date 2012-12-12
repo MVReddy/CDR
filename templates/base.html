@@ -1,0 +1,75 @@
+<html>
+<title>CDR STATS</title>
+<head>
+    {% load static from staticfiles %}
+    <link href="{% static 'css/bootstrap.css'%}" rel="stylesheet">
+    <link href="{% static 'css/bootstrap-responsive.css' %}" rel="stylesheet">
+    <!--<script src="{% static 'js/jquery.js' %}"></script>-->
+
+    <link rel="stylesheet" href="{% static 'css/jquery-ui.css' %}"/>
+    <style type="text/css">
+        body {
+            padding-top: 80px;
+        }
+    </style>
+    <style type="text/css">
+    .ui-datepicker { 
+        margin-top: 270px;
+    }
+    </style>
+</head>
+</body>
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <a class="brand" href="#">CDR STATS </a>
+        </div>
+    </div>
+    
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="span3">
+                <div class="well sidebar-nav">
+                    <ul class="nav nav-list">
+                        <li class="nav-header">Graph Type</li>
+                        <li {% if request.path =  "/line-graph/"%} class="active"{% endif %}><a href="/line-graph/">Line Graph</a></li>
+                        <li {% if request.path = "/pie-chart/"%} class="active"{% endif %}><a href="/pie-chart/">Pie Chart</a></li>
+                        {% block datepicker %}{% endblock %}
+                    </ul>
+                </div>
+            </div>
+            {% block content1 %}
+            {% endblock %}
+        </div>
+    </div>
+    
+    <script src="{% static 'js/jquery-1.8.3.js' %}"></script>
+    <script src="{% static 'js/jquery-ui.js' %}"></script>
+    <script src="{% static 'js/bootstrap-transition.js' %}"></script>
+    <script src="{% static 'js/bootstrap-alert.js' %}"></script>
+    <script src="{% static 'js/bootstrap-modal.js' %}"></script>
+    <script src="{% static 'js/bootstrap-dropdown.js' %}"></script>
+    <script src="{% static 'js/bootstrap-scrollspy.js' %}"></script>
+    <script src="{% static 'js/bootstrap-tab.js' %}"></script>
+    <script src="{% static 'js/bootstrap-tooltip.js' %}"></script>
+    <script src="{% static 'js/bootstrap-popover.js' %}"></script>
+    <script src="{% static 'js/bootstrap-button.js' %}"></script>
+    <script src="{% static 'js/bootstrap-collapse.js' %}"></script>
+    <script src="{% static 'js/bootstrap-carousel.js' %}"></script>
+    <script src="{% static 'js/bootstrap-typeahead.js' %}"></script>
+    <script>
+    $(function() {
+        $( "#datepicker" ).datepicker({
+            dateFormat: 'mm-dd-yy',
+            beforeShow: function (textbox, instance) {
+                instance.dpDiv.css({
+                    marginBottom: (textbox.offsetHeight) + 'px',
+                });
+            },
+            onSelect: function(date, instance) {
+                window.location = "{{request.path}}?date="+date;
+            }
+        });
+    });
+    </script>
+</body>
+</html>

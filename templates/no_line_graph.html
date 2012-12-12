@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+    {% block datepicker %}
+        <li class="nav-header">Date Picker</li>
+        <li><input type="text" placeholder="Pick date" id="datepicker"/></br></li>
+        <p>No records on date: {{ month}}-{{day}}-{{year}}</p>
+    {% endblock %}
+

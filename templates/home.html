@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+    {% block content1 %}
+        <div class="span9">
+            1. Generate 20 million CDRs, spread over one month (say 1-Sep-2012 to 30-Sep-2012).
+                Please generate the data randomly. Each CDRs should have following fields:</br></br>
+                    <ol>
+                        <li>From Number (12 digits)</li>
+                        <li>To Number (12 digits)</li>
+                        <li>Status (values: Answered, Not answered, No ring)</li>
+                        <li>Timestamp of start of call (rounded to whole seconds)</li>
+                        <li>Duration of call in seconds</li>
+                    </ol>
+            2. First requirement is, the application should show a line graph of maximum number of simultaneously running calls over a duration</br></br>
+                    <ol>
+                        <li>The maximum concurrent calls for during each hour will be a single data point in the graph.</li>
+                        <li>The maximum concurrent calls should be calculated for every round hour (e.g. 1
+                        to 2 AM, rather than 1.15 to 2.15 AM), considering all live calls during that hour.</li>
+                        <li>User should be able to choose a date range for which (s)he wants to see the concurrent calls graph.</li>
+                    </ol>
+            3. Second requirement is, the application should show a Pie chart of information on status of calls:</br></br>
+                <ol> 
+                    <li>User should be able to choose any date/time range.</li>
+                    <li>UI should show a Pie chart of calls .Answered., .Not Answered. and .No Ring..</li>
+                </ol>
+        </div>
+    {% endblock %}
+
+
