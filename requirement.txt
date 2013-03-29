@@ -10,3 +10,4 @@
 [Database]
 
 -- Mysql 
+--django-registration
