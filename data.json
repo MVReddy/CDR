@@ -1,0 +1,210 @@
+{
+    "experiencecomponent": {
+        "items": [
+            {
+                "componententitytype": "Supporting",
+                "componenttype": "Image",
+                "frameheight": 3456,
+                "id": 434269,
+                "size": 3926887,
+                "filelocation": {
+                    "items": [
+                        {
+                            "fileextension": "jpg",
+                            "filepath": "s3://storfront/oth/FunimationStoreFront/1345142/English/1345142_English_ShowThumbnail_eaa9234f-3e83-e611-80c5-0017a4776c06.jpg",
+                            "filename": "1345142_English_ShowThumbnail_eaa9234f-3e83-e611-80c5-0017a4776c06"
+                        }
+                    ]
+                },
+                "componentassettype": "Packshot",
+                "scanmode": null,
+                "videoduration": null,
+                "version": "Show Thumbnail",
+                "screenaspectratio": null,
+                "subtitlecontent": null,
+                "territory": "USA",
+                "videocodec": null,
+                "burnedinsubtitlelanguage": null,
+                "componentid": 16401006,
+                "imageaspectratio": null,
+                "language": "English",
+                "encodingrate": null,
+                "framerate": null,
+                "videocontainer": null,
+                "framewidth": 3456,
+                "resolution": "HD",
+                "subtitleformat": null
+            },
+            {
+                "componententitytype": "Core",
+                "componenttype": "Subtitle",
+                "frameheight": 0,
+                "id": 434270,
+                "size": 26987,
+                "filelocation": {
+                    "items": [
+                        {
+                            "fileextension": "exe",
+                            "filepath": "My Test",
+                            "filename": "1345142_English_f1a9234f-3e83-e611-80c5-0017a4776c06"
+                        }
+                    ]
+                },
+                "componentassettype": null,
+                "scanmode": null,
+                "videoduration": null,
+                "version": null,
+                "screenaspectratio": null,
+                "subtitlecontent": "CC",
+                "territory": null,
+                "videocodec": null,
+                "burnedinsubtitlelanguage": null,
+                "componentid": 24120899,
+                "imageaspectratio": null,
+                "language": "English",
+                "encodingrate": null,
+                "framerate": null,
+                "videocontainer": null,
+                "framewidth": 0,
+                "resolution": null,
+                "subtitleformat": ".VTT"
+            },
+            {
+                "componententitytype": "Core",
+                "componenttype": "Audio Track",
+                "frameheight": null,
+                "id": 434271,
+                "size": 0,
+                "filelocation": {
+                    "items": [
+                        {
+                            "fileextension": "m3u8",
+                            "filepath": "https://d132fumi6di1wa.cloudfront.net/exp/FunimationStoreFront/1345142/English/1345142_English_f9a9234f-3e83-e611-80c5-0017a4776c06.m3u8",
+                            "filename": "1345142_English_f9a9234f-3e83-e611-80c5-0017a4776c06"
+                        }
+                    ]
+                },
+                "componentassettype": null,
+                "scanmode": null,
+                "videoduration": null,
+                "version": null,
+                "screenaspectratio": null,
+                "subtitlecontent": null,
+                "territory": null,
+                "videocodec": null,
+                "burnedinsubtitlelanguage": null,
+                "componentid": 24120904,
+                "imageaspectratio": null,
+                "language": "English",
+                "encodingrate": null,
+                "framerate": null,
+                "videocontainer": null,
+                "framewidth": null,
+                "resolution": null,
+                "subtitleformat": null
+            },
+            {
+                "componententitytype": "Core",
+                "componenttype": "Video",
+                "frameheight": 1080,
+                "id": 434272,
+                "size": 0,
+                "filelocation": {
+                    "items": [
+                        {
+                            "fileextension": "m3u8",
+                            "filepath": "https://d132fumi6di1wa.cloudfront.net/exp/FunimationStoreFront/1345142/English/1345142_English_f9a9234f-3e83-e611-80c5-0017a4776c06.m3u8",
+                            "filename": "1345142_English_f9a9234f-3e83-e611-80c5-0017a4776c06"
+                        }
+                    ]
+                },
+                "componentassettype": null,
+                "scanmode": "Progressive",
+                "videoduration": 1450987,
+                "version": null,
+                "screenaspectratio": "16x9",
+                "subtitlecontent": null,
+                "territory": null,
+                "videocodec": "H.264",
+                "burnedinsubtitlelanguage": "None",
+                "componentid": 24120905,
+                "imageaspectratio": "1.78",
+                "language": "English",
+                "encodingrate": 8628,
+                "framerate": "23.976",
+                "videocontainer": "MPEG-2 TS",
+                "framewidth": 1920,
+                "resolution": "HD",
+                "subtitleformat": null
+            },
+            {
+                "componententitytype": "Core",
+                "componenttype": "Video",
+                "frameheight": 1080,
+                "id": 434273,
+                "size": 0,
+                "filelocation": {
+                    "items": [
+                        {
+                            "fileextension": "mp4",
+                            "filepath": "https://d132fumi6di1wa.cloudfront.net/exp/FunimationStoreFront/1345142/English/1345142_English_f9a9234f-3e83-e611-80c5-0017a4776c06.mp4",
+                            "filename": "1345142_English_f9a9234f-3e83-e611-80c5-0017a4776c06"
+                        }
+                    ]
+                },
+                "componentassettype": null,
+                "scanmode": "Progressive",
+                "videoduration": 1450987,
+                "version": null,
+                "screenaspectratio": "16x9",
+                "subtitlecontent": null,
+                "territory": null,
+                "videocodec": "H.264",
+                "burnedinsubtitlelanguage": "None",
+                "componentid": 24120906,
+                "imageaspectratio": "1.78",
+                "language": "English",
+                "encodingrate": 3000,
+                "framerate": "23.976",
+                "videocontainer": "MP4",
+                "framewidth": 1920,
+                "resolution": "HD",
+                "subtitleformat": null
+            },
+            {
+                "componententitytype": "Supporting",
+                "componenttype": "Image",
+                "frameheight": 1080,
+                "id": 434280,
+                "size": 293501,
+                "filelocation": {
+                    "items": [
+                        {
+                            "fileextension": "jpg",
+                            "filepath": "s3://storfront/oth/FunimationStoreFront/1345142/English/1345142_English_ContinueWatchingMobile_93a9234f-3e83-e611-80c5-0017a4776c06.jpg",
+                            "filename": "1345142_English_ContinueWatchingMobile_93a9234f-3e83-e611-80c5-0017a4776c06"
+                        }
+                    ]
+                },
+                "componentassettype": "Packshot",
+                "scanmode": null,
+                "videoduration": null,
+                "version": "Continue Watching Mobile",
+                "screenaspectratio": null,
+                "subtitlecontent": null,
+                "territory": "USA",
+                "videocodec": null,
+                "burnedinsubtitlelanguage": null,
+                "componentid": 22291182,
+                "imageaspectratio": null,
+                "language": "English",
+                "encodingrate": null,
+                "framerate": null,
+                "videocontainer": null,
+                "framewidth": 1080,
+                "resolution": "HD",
+                "subtitleformat": null
+            }
+        ]
+    }
+}
